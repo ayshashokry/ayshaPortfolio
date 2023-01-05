@@ -6,23 +6,23 @@ import { Button } from "antd";
 import Link from "next/link";
 
 //images
-import prettyWoman from "../../public/images/prettywoman.PNG";
-import TBH from "../../public/images/tbh.PNG";
+import prettywoman from "../../public/images/prettywoman.PNG";
+import tbh from "../../public/images/tbh.PNG";
 import lirten1 from "../../public/images/lirten1.PNG";
 import lirten2 from "../../public/images/lirten2.PNG";
 import dawoudy from "../../public/images/dawoudy.PNG";
 import elesol from "../../public/images/elesol.PNG";
-import flyPyramid from "../../public/images/flypyramid.PNG";
+import flypyramid from "../../public/images/flypyramid.PNG";
 import otic from "../../public/images/otic.PNG";
 import bezel from "../../public/images/bezel.PNG";
 import angora from "../../public/images/angora.PNG";
 import fokir from "../../public/images/fokir.PNG";
-import uCode from "../../public/images/ucode.PNG";
-import homeMade from "../../public/images/homemade.PNG";
+import ucode from "../../public/images/ucode.PNG";
+import homemade from "../../public/images/homemade.PNG";
 import engage from "../../public/images/engage.PNG";
-import myReads from "../../public/images/myreads.PNG";
+import myreads from "../../public/images/myreads.PNG";
 
-import startBootstrap from "../../public/images/startbootstrap.PNG";
+import startbootstrap from "../../public/images/startbootstrap.PNG";
 
 export default function Projects(props) {
   const websites = [
@@ -30,56 +30,56 @@ export default function Projects(props) {
       name: "Training system",
       demo: "http://194.163.177.27/training-system/",
       repo: null,
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Decision Support System",
       demo: "http://194.163.177.27/fron/",
       repo: null,
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Engineering Approval Companies",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Eastern Portal",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Ryiadh Portal",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Akhdar Makkah",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Map Explorer",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "Mahamy",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
 
@@ -87,14 +87,14 @@ export default function Projects(props) {
       name: "Pretty Woman",
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
-      img: prettyWoman,
+      img: prettywoman,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "The business hub",
       demo: "https://tbh-1.vercel.app/",
-      repo: "https://github.com/ayshashokry/TBH1",
-      img: TBH,
+      repo: "https://github.com/ayshashokry/tbh1",
+      img: tbh,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
@@ -115,7 +115,7 @@ export default function Projects(props) {
       name: "Fly Pyramids",
       demo: "https://vercel.com/ayshashokry/fly-pyramids",
       repo: "https://github.com/ayshashokry/Fly-Pyramids",
-      img: flyPyramid,
+      img: flypyramid,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
@@ -142,15 +142,15 @@ export default function Projects(props) {
     {
       name: "Home Made",
       demo: "https://home-made.vercel.app/",
-      repo: "https://github.com/ayshashokry/homeMade",
-      img: homeMade,
+      repo: "https://github.com/ayshashokry/homemade",
+      img: homemade,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
       name: "My Reads",
       demo: "https://my-reads-delta-three.vercel.app/",
-      repo: "https://github.com/ayshashokry/myReads",
-      img: myReads,
+      repo: "https://github.com/ayshashokry/myreads",
+      img: myreads,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
@@ -164,7 +164,7 @@ export default function Projects(props) {
       name: "U-Code",
       demo: "https://u-code.vercel.app/",
       repo: "https://github.com/ayshashokry/u-code",
-      img: uCode,
+      img: ucode,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
     {
@@ -193,7 +193,7 @@ export default function Projects(props) {
       name: "Start Bootstrap",
       demo: "https://start-bootstrap.vercel.app/",
       repo: "https://github.com/ayshashokry/Start-Bootstrap",
-      img: startBootstrap,
+      img: startbootstrap,
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
   ];

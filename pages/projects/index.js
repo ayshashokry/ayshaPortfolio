@@ -6,7 +6,7 @@ import { Button } from "antd";
 import Link from "next/link";
 
 //images
-// import prettywoman from "../../public/images/prettywoman.PNG";
+import prettywoman from "../../public/images/prettywoman.PNG";
 import tbh from "../../public/images/tbh.PNG";
 import lirten1 from "../../public/images/lirten1.PNG";
 import lirten2 from "../../public/images/lirten2.PNG";
@@ -26,70 +26,70 @@ import startbootstrap from "../../public/images/startbootstrap.PNG";
 
 export default function Projects(props) {
   const websites = [
-    // {
-    //   name: "Training system",
-    //   demo: "http://194.163.177.27/training-system/",
-    //   repo: null,
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Decision Support System",
-    //   demo: "http://194.163.177.27/fron/",
-    //   repo: null,
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Engineering Approval Companies",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Eastern Portal",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Ryiadh Portal",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Akhdar Makkah",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Map Explorer",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
-    // {
-    //   name: "Mahamy",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
+    {
+      name: "Training system",
+      demo: "http://194.163.177.27/training-system/",
+      repo: null,
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Decision Support System",
+      demo: "http://194.163.177.27/fron/",
+      repo: null,
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Engineering Approval Companies",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Eastern Portal",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Ryiadh Portal",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Akhdar Makkah",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Map Explorer",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
+    {
+      name: "Mahamy",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
 
-    // {
-    //   name: "Pretty Woman",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: "https://github.com/ayshashokry/Pretty-Woman",
-    //   img: prettywoman,
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    // },
+    {
+      name: "Pretty Woman",
+      demo: "https://pretty-woman-rho.vercel.app/",
+      repo: "https://github.com/ayshashokry/Pretty-Woman",
+      img: prettywoman,
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    },
     {
       name: "The business hub",
       demo: "https://tbh-1.vercel.app/",
@@ -194,7 +194,7 @@ export default function Projects(props) {
       demo: "https://start-bootstrap.vercel.app/",
       repo: "https://github.com/ayshashokry/Start-Bootstrap",
       img: startbootstrap,
-      data: "Pretty  company offers this website for users to have a look at the company's cosmetics products online. ",
+      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     },
   ];
   const websitesToShow = props.homePage ? websites.slice(0, 4) : websites;

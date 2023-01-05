@@ -7,7 +7,6 @@ import { BiLinkExternal } from "react-icons/bi";
 export default function ProjectDetails({ website, index }) {
   return (
     <Row
-    
       className={styles.projectDetails}
       id={index % 2 == 0 ? styles.evenProj : styles.oddProj}>
       <Col sm={{ span: 24 }} lg={{ span: 12 }}>
@@ -21,18 +20,20 @@ export default function ProjectDetails({ website, index }) {
         <h3>{website.name}</h3>
         <p>{website.data}</p>
         <div className={styles.linksDiv}>
-          <a target="_blank"rel="noreferrer" href={website.demo}>
+          <a target="_blank" rel="noreferrer" href={website.demo}>
             <Button>
               <BiLinkExternal />
               Demo
             </Button>
           </a>
-          {website.repo!==null&&<a rel="noreferrer" target="_blank" href={website.repo}>
-            <Button>
-              <FiGithub />
-              Code
-            </Button>
-          </a>}
+          {website.repo !== null && (
+            <a rel="noreferrer" target="_blank" href={website.repo}>
+              <Button>
+                <FiGithub />
+                Code
+              </Button>
+            </a>
+          )}
         </div>
       </Col>
     </Row>

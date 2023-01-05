@@ -27,7 +27,7 @@ import startBootstrap from "../../public/images/startbootstrap.PNG";
 export default function Projects(props) {
   const websites = [
     {
-      name: "Training System",
+      name: "Training system",
       demo: "http://194.163.177.27/training-system/",
       repo: null,
       img: prettyWoman,

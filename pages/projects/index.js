@@ -22,7 +22,7 @@ import homeMade from "../../public/images/homemade.PNG";
 import engage from "../../public/images/engage.PNG";
 import myReads from "../../public/images/myreads.PNG";
 
-import startBootstrap from "../../public/images/startBootstrap.PNG";
+import startBootstrap from "../../public/images/startbootstrap.PNG";
 
 export default function Projects(props) {
   const websites = [

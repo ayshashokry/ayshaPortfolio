@@ -194,7 +194,7 @@ export default function Projects(props) {
       demo: "https://start-bootstrap.vercel.app/",
       repo: "https://github.com/ayshashokry/Start-Bootstrap",
       img: startbootstrap,
-      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+      data: "Pretty  company offers this website for users to have a look at the company's cosmetics products online. ",
     },
   ];
   const websitesToShow = props.homePage ? websites.slice(0, 4) : websites;

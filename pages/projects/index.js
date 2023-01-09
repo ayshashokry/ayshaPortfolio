@@ -31,14 +31,14 @@ export default function Projects(props) {
       demo: "http://194.163.177.27/training-system/",
       repo: null,
       img: prettywoman,
-      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+      data: "Courses website ",
     },
     {
       name: "Decision Support System",
       demo: "http://194.163.177.27/fron/",
       repo: null,
       img: prettywoman,
-      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+      data: "",
     },
     {
       name: "Engineering Approval Companies",
@@ -80,7 +80,7 @@ export default function Projects(props) {
       demo: "https://pretty-woman-rho.vercel.app/",
       repo: "https://github.com/ayshashokry/Pretty-Woman",
       img: prettywoman,
-      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+      data: "Task manager to add tasks and manage it.",
     },
 
     {

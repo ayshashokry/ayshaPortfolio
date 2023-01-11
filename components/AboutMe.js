@@ -68,7 +68,7 @@ export default function AboutMe() {
             <img
               className={styles.userImg}
               src="https://lh4.googleusercontent.com/fEq9UjgXZvoWk-28EestxC9PHNyr7AxekHD_jsC-5O81sWjq6jDdQvtn8ZhOfovdh_8=w2400"
-              alt="Aysha's Photo"
+              alt="Aysha's image"
               height={400}
             />
           </div>

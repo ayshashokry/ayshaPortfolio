@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "antd";
 import styles from "../styles/aboutMe.module.scss";
 import Image from "next/image";
-import userImg from "../public/images/userimg.jpg";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiSass, DiJavascript1, DiReact } from "react-icons/di";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";

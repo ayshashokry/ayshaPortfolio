@@ -10,10 +10,10 @@ export default function ProjectDetails({ website, index }) {
       className={styles.projectDetails}
       id={index % 2 == 0 ? styles.evenProj : styles.oddProj}>
       <Col sm={{ span: 24 }} lg={{ span: 12 }}>
-        <Image
+        <img
           alt="Project's Photo"
           className={styles.projectImg}
-          src={website.img}
+          src={website.img}width="100%"
         />
       </Col>
       <Col sm={{ span: 24 }} lg={{ span: 12 }}>

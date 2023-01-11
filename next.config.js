@@ -20,7 +20,7 @@ const nextConfig = {
       "https://lh6.googleusercontent.com/xVR-9PxYEUBo5WC4NiTYWaqISLNUZ9xxVSm_k-des2k6BWq2gIMOw19wwtUCCGvK6V4=w2400",
       "https://lh6.googleusercontent.com/u--pxOK46_vru_FjaTIk-WdFkOetqz742V-EE9XW-amRADbf5sNkEDmXavcBhN8E5R8=w2400",
       "https://lh3.googleusercontent.com/rb8tXnr-43zBCqg_5QlhQiwePhOg0SBMstAyKsX6JSI-Bo-NDxHULhAb3LpalJGisHs=w2400",
-      "",
+      "https://lh4.googleusercontent.com/fEq9UjgXZvoWk-28EestxC9PHNyr7AxekHD_jsC-5O81sWjq6jDdQvtn8ZhOfovdh_8=w2400",
       "*",
     ],
   },

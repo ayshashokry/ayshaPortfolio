@@ -15,7 +15,7 @@ export default function Projects(props) {
       data: "Courses website ",
     },
     {
-      name: "Decision Support System",
+      name: "Decision Support Systems",
       demo: "http://194.163.177.27/fron/",
       repo: null,
       img: "https://lh5.googleusercontent.com/M_gtO49L0yQ3v3zyvJDRy1mQsAUlr897KMnKd_RwLpeY0SzxMAMO8crpm5Dq4LFAeUo=w2400",

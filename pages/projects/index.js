@@ -5,11 +5,6 @@ import ProjectDetails from "../../components/ProjectDetails";
 import { Button } from "antd";
 import Link from "next/link";
 
-//images
-
-
-import startbootstrap from "../../public/images/startbootstrap.PNG";
-
 export default function Projects(props) {
   const websites = [
     {

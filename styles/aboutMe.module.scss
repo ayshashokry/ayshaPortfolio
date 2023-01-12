@@ -58,6 +58,6 @@
   }
   .skillsList {
     display: grid !important; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;padding-left: 0;
   }
 }

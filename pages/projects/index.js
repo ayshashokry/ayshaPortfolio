@@ -21,7 +21,7 @@ export default function Projects(props) {
       demo: "http://194.163.177.27/fron/",
       repo: null,
       img: "https://lh5.googleusercontent.com/M_gtO49L0yQ3v3zyvJDRy1mQsAUlr897KMnKd_RwLpeY0SzxMAMO8crpm5Dq4LFAeUo=w2400",
-      data: "website for an indicator developed by Simon Anholt and implemented by Ipsos. It aims to identify the impressions of individuals from (20) countries and their opinions about (60) countries in the world, within six general axes in all, and it has been implemented annually since 2008. It includes The survey consists of 23 questions distributed on the following axes, and the respondent is asked to answer with an evaluation of (7) degrees",
+      data: "website for an indicator developed by Simon Anholt and implemented by Ipsos. It aims to identify the impressions of individuals from (20) countries and their opinions about (60) countries in the world, within six general axes in all, and it has been implemented annually since 2008.",
       role: "UI development",
     },
     {
@@ -53,7 +53,7 @@ export default function Projects(props) {
       demo: "http://77.30.168.84/greenmakkah/",
       repo: null,
       img: "https://lh5.googleusercontent.com/MWyk6Z_sQOp7-TmeoYa3u6UYJXobeSdDPRWEwj2Fkl2TnWm_E9cxp_idncd84dYtDik=w2400",
-      data: "The Green Makkah Project is part of the Saudi Green Initiative, which consolidates the direction of the Kingdom and the region in protecting land and nature and placing it in a road map with clear landmarks that contribute strongly to achieving a sustainable environment. The initiative also aims to expand the green areas in the region and rehabilitate the vegetation cover. And the development of national parks in Makkah Al-Mukarramah region (14 governorates) and seeks to preserve natural habitats and raise the level of environmental commitment and benefit from water resources and optimal and sustainable utilization.",
+      data: "The Green Makkah Project is part of the Saudi Green Initiative, which consolidates the direction of the Kingdom and the region in protecting land and nature and placing it in a road map with clear landmarks that contribute strongly to achieving a sustainable environment. The initiative also aims to expand the green areas in the region and rehabilitate the vegetation cover.",
       role: "UI/UX development",
     },
     // {
@@ -119,7 +119,7 @@ export default function Projects(props) {
       demo: "https://dawoudyy.vercel.app/",
       repo: "https://github.com/ayshashokry/Dawoudyy",
       img: "https://lh4.googleusercontent.com/SITmxBh7sIm5I2cWMEn1E8sSZjw8gopArExw8jVrIp6kVVOevJ5n7kUu6fON34H4b2Q=w2400",
-      data: "A long established company By Mr. Mostafa Ahmed Eldawody since 1984 in Portsaid, Damietta and Alexandira. They are market leaders and experts in their field as they excel at creating innovative solution designe t fulfill or exceed our customers’ needs, overcome obstacles and utilize resources in the most productive way. They have the privilege of working with some fantastic clients.",
+      data: "A long established company By Mr. Mostafa Ahmed Eldawody since 1984 in Portsaid, Damietta and Alexandira. They are market leaders and experts in their field as they excel at creating innovative solution designe t fulfill or exceed our customers’ needs, overcome obstacles and utilize resources in the most productive way.",
       role: "UI/UX development",
     },
     // {
@@ -159,7 +159,7 @@ export default function Projects(props) {
       demo: "https://bezel-chi.vercel.app/",
       repo: "https://github.com/ayshashokry/bezel",
       img: "https://lh3.googleusercontent.com/0bYZhkaKXyyRxrTjy68x10E92a41dkg4lg3yD4RXvDub-a7aFpnA5K6zGtcRG7WqR1E=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
     {
@@ -167,7 +167,7 @@ export default function Projects(props) {
       demo: "https://u-code.vercel.app/",
       repo: "https://github.com/ayshashokry/u-code",
       img: "https://lh3.googleusercontent.com/rb8tXnr-43zBCqg_5QlhQiwePhOg0SBMstAyKsX6JSI-Bo-NDxHULhAb3LpalJGisHs=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
     {
@@ -175,7 +175,7 @@ export default function Projects(props) {
       demo: "https://angora1.vercel.app/",
       repo: "https://github.com/ayshashokry/Angora1",
       img: "https://lh6.googleusercontent.com/ZFZk4W0L5puMCN8-UPJVU8Ut2qpZkyc9EhYPTIBhW3HR0hTXo0z4BvgZy0DFLA9l_w0=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
 
@@ -184,7 +184,7 @@ export default function Projects(props) {
       demo: "https://fokir-omega.vercel.app/",
       repo: "https://github.com/ayshashokry/fokir",
       img: "https://lh4.googleusercontent.com/j2rSiSsF-_J0Md8H5b8xkjzMZbLpjVfXbLEVugWYhpj8NmqedXutbLqVEJqrTtNCzy0=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
     {
@@ -192,7 +192,7 @@ export default function Projects(props) {
       demo: "https://engage-topaz.vercel.app/",
       repo: "https://github.com/ayshashokry/engage",
       img: "https://lh5.googleusercontent.com/gi6Ad1eWhkM51KKJVCLDMN-hNjMyiYvr44-is2wWY7Ky4aLeCdQXMFBgl-P_5uksfM0=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
     {
@@ -200,7 +200,7 @@ export default function Projects(props) {
       demo: "https://start-bootstrap.vercel.app/",
       repo: "https://github.com/ayshashokry/Start-Bootstrap",
       img: "https://lh6.googleusercontent.com/xVR-9PxYEUBo5WC4NiTYWaqISLNUZ9xxVSm_k-des2k6BWq2gIMOw19wwtUCCGvK6V4=w2400",
-      data: "It's a template website,I made it to develop my technical skills. ",
+      data: "It's a template for a company website. ",
       role: "UI development",
     },
   ];

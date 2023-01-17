@@ -13,7 +13,8 @@
   width: 100%;
   padding: 60px 70px;
 
-  .projectDetails {justify-content: center;
+  .projectDetails {
+    justify-content: center;
     margin-bottom: 80px;
     h3 {
       color: var(--secondColor);
@@ -24,12 +25,14 @@
     p {
       color: var(--white);
       font-size: 20px;
-      text-align: center;
+      text-align: left;
       padding: 10px 20px;
+      direction: ltr;
     }
     .linksDiv {
       padding: 5px;
       text-align: center;
+      direction: ltr !important;
       a {
         padding: 10px;
         button {
@@ -81,17 +84,20 @@
   }
 }
 
-@media (max-width: 1300px) {  .mainTitle{
-  display: block;
-}
+@media (max-width: 1300px) {
+  .mainTitle {
+    display: block;
+  }
   #projMain {
     padding: 20px;
   }
 }
 
-@media(max-width:1000px){
-  .main{
+@media (max-width: 1000px) {
+  .main {
     padding: 20px;
   }
-  
+  .projectImg {
+    height: fit-content !important;
+  }
 }

@@ -46,9 +46,9 @@ export default function ProjectDetails({ website, index }) {
             </a>
           )}
         </div>
-
+{/* 
         <h5 className={styles.role}>Role :</h5>
-        <h4 className={styles.roleSpan}>{website.role}</h4>
+        <h4 className={styles.roleSpan}>{website.role}</h4> */}
       </Col>
     </Row>
   );

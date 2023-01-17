@@ -30,7 +30,7 @@
     padding-top: 30px;
     color: var(--white);
     h4 {
-      color: var(--primaryColor);
+      color: var(--secondColor);
       font-weight: 500;
       margin-bottom: 5px !important;
     }
@@ -67,4 +67,14 @@
       }
     }
   }
+}
+
+
+@media(max-width:1000px){
+  .mainTitle{
+    border-bottom: 1px solid var(--titleColor);
+    width: fit-content;
+    &::after{
+    display: none !important; 
+  }}
 }

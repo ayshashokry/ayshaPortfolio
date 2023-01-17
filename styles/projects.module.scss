@@ -48,7 +48,7 @@
     p {
       color: var(--white);
       font-size: 20px;
-      text-align: left;
+      text-align: center;
       padding: 10px 20px;
       direction: ltr;
     }
@@ -120,6 +120,16 @@
   .main {
     padding: 10px;
   }
+
+  .mainTitle {
+    border-bottom: 1px solid var(--titleColor);
+    width: fit-content;
+    &::after {
+      display: none !important;
+    }
+  }
+}
+@media (max-width: 530px) {
   .projectImg {
     height: 220px !important;
   }

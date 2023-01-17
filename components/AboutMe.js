@@ -24,10 +24,7 @@ export default function AboutMe() {
       name: "JavaScript",
       icon: <DiJavascript1 />,
     },
-    {
-      name: "Type-Script",
-      icon: <SiTypescript />,
-    },
+
     {
       name: "ReactJs",
       icon: <DiReact />,
@@ -35,6 +32,10 @@ export default function AboutMe() {
     {
       name: "NextJs",
       icon: <SiNextdotjs />,
+    },
+    {
+      name: "Type-Script",
+      icon: <SiTypescript />,
     },
   ];
   return (

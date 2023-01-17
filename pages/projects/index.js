@@ -130,14 +130,14 @@ export default function Projects(props) {
     //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
     //   role: "UI development",
     // },
-    {
-      name: "Elesol",
-      demo: "https://otic-avi.vercel.app/",
-      repo: "https://github.com/ayshashokry/OTIC-AVI",
-      img: "https://lh6.googleusercontent.com/dlF3pWEMfpxqCdGdmAiHdB_wNLTFMyi_Z8Qk00IicLgFx2UhPVP-2I5rgGWL9Lq5DoE=w2400",
-      data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-      role: "UI development",
-    },
+    // {
+    //   name: "Elesol",
+    //   demo: "https://otic-avi.vercel.app/",
+    //   repo: "https://github.com/ayshashokry/OTIC-AVI",
+    //   img: "https://lh6.googleusercontent.com/dlF3pWEMfpxqCdGdmAiHdB_wNLTFMyi_Z8Qk00IicLgFx2UhPVP-2I5rgGWL9Lq5DoE=w2400",
+    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+    //   role: "UI development",
+    // },
     {
       name: "Home Made",
       demo: "https://home-made.vercel.app/",

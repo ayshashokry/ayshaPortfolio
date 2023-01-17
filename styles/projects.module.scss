@@ -22,18 +22,21 @@
       direction: ltr;
       font-size: 20px;
       text-decoration: underline;
-      padding: 10px 20px;margin: 5px 0 !important;
+      padding: 10px 20px;
+      margin: 5px 0 !important;
     }
-    .role1{
+    .role1 {
       font-size: 17px;
-      color: var(--secondColor);margin-left: 10px;
+      color: var(--secondColor);
+      margin-left: 10px;
     }
     .roleSpan {
       color: #fff;
       padding: 5px 20px;
       text-align: left;
       direction: ltr;
-      font-size: 16px;margin: 2px 0 ;
+      font-size: 16px;
+      margin: 2px 0;
       margin-left: 10px;
     }
     h3 {
@@ -118,6 +121,6 @@
     padding: 20px;
   }
   .projectImg {
-    height: fit-content !important;
+    height: 250px !important;
   }
 }

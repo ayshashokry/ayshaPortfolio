@@ -54,10 +54,16 @@
 }
 @media (max-width: 1000px) {
   .aboutSection {
-    padding: 20px !important;
+    padding: 10px !important;
   }
   .skillsList {
     display: grid !important; 
     grid-template-columns: 1fr 1fr;padding-left: 0;
+  }
+}
+@media (max-width: 500px) {
+
+  .skillsList {
+    display: block !important; 
   }
 }

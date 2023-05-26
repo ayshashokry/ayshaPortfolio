@@ -28,7 +28,7 @@ const nextConfig = {
       "https://lh4.googleusercontent.com/M_sKYNPY4RxVX2LoUmxuBaWlztIVl_UjdOf-Ud-mQaK8UhYZzhtYGdlpbrOk-GXGzd4=w2400",
       "https://lh5.googleusercontent.com/MWyk6Z_sQOp7-TmeoYa3u6UYJXobeSdDPRWEwj2Fkl2TnWm_E9cxp_idncd84dYtDik=w2400",
       "https://lh3.googleusercontent.com/GG-R76fD1P5JtAZpYItQTb2TSdwxGij2RMH8cPwyPX6scmmxzGDpKlloxxj8PYg4SAg=w2400",
-      "https://drive.google.com/file/d/1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0/view?usp=sharing",
+      "https://drive.google.com/uc?id=1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0",
       "*",
     ],
   },

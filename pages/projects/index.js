@@ -79,7 +79,7 @@ export default function Projects(props) {
       name: "Bobian Elevators",
       demo: "https://bobian-elevators-kze5.vercel.app/",
       repo: "https://github.com/ayshashokry/BobianElevators",
-      img: "https://drive.google.com/file/d/1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0/view?usp=sharing",
+      img: "https://drive.google.com/uc?id=1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0",
       data: "Bobian company offers this website for users to have a look at the company's elevators products online. ",
       role: "UI/UX development ",
     },

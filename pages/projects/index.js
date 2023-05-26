@@ -56,14 +56,7 @@ export default function Projects(props) {
       data: "The Green Makkah Project is part of the Saudi Green Initiative, which consolidates the direction of the Kingdom and the region in protecting land and nature and placing it in a road map with clear landmarks that contribute strongly to achieving a sustainable environment. The initiative also aims to expand the green areas in the region and rehabilitate the vegetation cover.",
       role: "UI/UX development",
     },
-    // {
-    //   name: "Ahsaa",
-    //   demo: "https://pretty-woman-rho.vercel.app/",
-    //   repo: null,
-    //   img: "https://lh4.googleusercontent.com/ZgSqLu8YmSrDEgX9hBsmbtQjyCADJJdJzWH3PpUoYM-AaUn7bm5xV_NIQERf-NE-iGw=w2400",
-    //   data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
-    //   role: "UI development",
-    // },
+  
     {
       name: "Mahamy",
       demo: "http://77.30.168.86/mahamy/",
@@ -80,6 +73,14 @@ export default function Projects(props) {
       repo: "https://github.com/ayshashokry/Pretty-Woman",
       img: "https://lh4.googleusercontent.com/ZgSqLu8YmSrDEgX9hBsmbtQjyCADJJdJzWH3PpUoYM-AaUn7bm5xV_NIQERf-NE-iGw=w2400",
       data: "Pretty woman company offers this website for users to have a look at the company's cosmetics products online. ",
+      role: "UI/UX development",
+    },
+    {
+      name: "Bobian Elevators",
+      demo: "https://bobian-elevators-kze5.vercel.app/",
+      repo: "https://github.com/ayshashokry/BobianElevators",
+      img: "https://drive.google.com/file/d/1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0/view?usp=sharing",
+      data: "Bobian company offers this website for users to have a look at the company's elevators products online. ",
       role: "UI/UX development",
     },
     {

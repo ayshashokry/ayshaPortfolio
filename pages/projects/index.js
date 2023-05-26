@@ -81,7 +81,7 @@ export default function Projects(props) {
       repo: "https://github.com/ayshashokry/BobianElevators",
       img: "https://drive.google.com/file/d/1afgYQHtfCDEnZ4bmKwsgUHH2iDbbsWo0/view?usp=sharing",
       data: "Bobian company offers this website for users to have a look at the company's elevators products online. ",
-      role: "UI/UX development",
+      role: "UI/UX development ",
     },
     {
       name: "The business hub",

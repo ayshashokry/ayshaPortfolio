@@ -1,64 +1,49 @@
 import React from "react";
 import { Row, Col } from "antd";
 import styles from "../styles/aboutMe.module.scss";
-import Image from "next/image";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiSass, DiJavascript1, DiReact } from "react-icons/di";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
 import homeStyles from "../styles/Home.module.scss";
 export default function AboutMe() {
-  const skills = [
-    {
-      name: "HTML5",
-      icon: <AiFillHtml5 />,
-    },
-    {
-      name: "CSS3",
-      icon: <DiCss3 />,
-    },
-    {
-      name: "SASS",
-      icon: <DiSass />,
-    },
-    {
-      name: "JavaScript",
-      icon: <DiJavascript1 />,
-    },    {
-      name: "Type-Script",
-      icon: <SiTypescript />,
-    },
+const skills = [
+  { name: "HTML5", icon: <AiFillHtml5 /> },
+  { name: "CSS3", icon: <DiCss3 /> },
+  { name: "SASS", icon: <DiSass /> },
+  { name: "JavaScript", icon: <DiJavascript1 /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
 
-    {
-      name: "ReactJs",
-      icon: <DiReact />,
-    },
-    {
-      name: "NextJs",
-      icon: <SiNextdotjs />,
-    },
+  { name: "React.js", icon: <DiReact /> },
+  { name: "Next.js", icon: <SiNextdotjs /> },
 
-  ];
+  { name: "React Query" },
+  { name: "Zustand" },
+
+  { name: "React Hook Form" },
+  { name: "Zod" },
+
+  { name: "REST APIs" },
+  { name: "SSR / SSG / ISR" },
+  { name: "Code Splitting" },
+
+  { name: "Jest" },
+  { name: "Git" },
+];
   return (
     <div className={styles.aboutSection}>
       <h4 className={homeStyles.mainTitle}>About me</h4>
       <Row>
         <Col sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 12 }}>
           <p>
-            Hello! My name is <strong>Aysha</strong> and I enjoy creating things
-            that live on the internet. My interest in web development started
-            back in 2018 after graduating from
-            <strong> the faculty of computers and information </strong>
-            then I decided to be a web developer and attended a web diploma to
-            improve my skills.
-          </p>
-          <p>
-            My main focus these days is improving my skills and building
-            accessible, inclusive websites for a variety of clients.
-          </p>
-          <p>
-            I am Seeking to work in multinational companies to have the
-            opportunity to gain experience.
-          </p>
+ Senior Frontend Developer with 7+ years of experience building scalable and high-performance web applications using React and Next.js.
+  I specialize in designing maintainable architectures, optimizing performance, and delivering seamless user experiences.
+  I have strong experience collaborating with backend engineers and business stakeholders to deliver reliable and efficient solutions.
+  Currently, I focus on building complex dashboard systems and continuously improving frontend architecture and performance.
+</p>
+
+<p>
+  I’m passionate about writing clean, maintainable code and building user-focused, accessible, and high-quality web applications.
+</p>
         </Col>
         <Col
           style={{ textAlign: "center", width: "100%" }}
@@ -75,16 +60,18 @@ export default function AboutMe() {
           </div>
         </Col>
       </Row>
-      <h4 style={{ paddingTop: "90px" }} className={homeStyles.mainTitle}>
-        Technical skills
-      </h4>
-      <ul className={styles.skillsList}>
-        {skills.map((s, index) => (
-          <li key={index}>
-            <span>{s.icon}</span> {s.name}
-          </li>
-        ))}
-      </ul>
+ <h4 style={{ paddingTop: "90px" }} className={homeStyles.mainTitle}>
+  Technical Skills
+</h4>
+
+<ul className={styles.skillsList}>
+  {skills.map((s, index) => (
+    <li key={index}>
+      {s.icon && <span>{s.icon}</span>}
+      {s.name}
+    </li>
+  ))}
+</ul>
     </div>
   );
 }

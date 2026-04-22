@@ -21,7 +21,7 @@ export default function NavBar() {
         className={styles.cvBtn}
         target="_blank"
         rel="noreferrer"
-        href="https://drive.google.com/file/d/1Pvxzq94Rp7FZzxf0qnJdbgKuoRm5HBST/view?usp=drive_link">
+        href="https://drive.google.com/file/d/1Xkm-kwb3m9BkmICqiZK-37bOtZXKoRml/view?usp=sharing">
         Resume
       </a>
     </div>

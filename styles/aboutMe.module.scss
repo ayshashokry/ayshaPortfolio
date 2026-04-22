@@ -39,6 +39,10 @@
   .skillsList {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;  
+  gap: 12px;
+  padding: 0;
+  list-style: none;
     li {
       background: cadetblue;
       margin: 10px;
@@ -46,6 +50,14 @@
       color: #fff;
       font-size: 20px;
       padding: 10px 15px;
+        border: 1px solid rgba(100, 200, 200, 0.3);
+  align-items: center;
+  gap: 6px;
+
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  background: rgba(100, 200, 200, 0.1);
       svg {
         font-size: 16px;
       }

@@ -15,9 +15,8 @@ export default function Home() {
           <h4>Hi, my name is</h4>
           <h1>Aysha Shokry Abdelfatah</h1>
           <p>
-            I am a software engineer specializing in developing websites and web
-            applications by using web technologies. I love to create beautiful
-            and performant products with delightful user experiences.
+           Senior Frontend Developer specializing in building scalable and high-performance web applications using React and Next.js.
+Focused on clean architecture, performance optimization, and delivering seamless user experiences.
           </p>
         </div>
         {/* About Me */}
